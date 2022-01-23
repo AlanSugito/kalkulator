@@ -1,0 +1,93 @@
+.container {
+  margin: auto;
+  border-radius: 50px;
+  background: #ffffff;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  padding: 20px;
+  width: 350px;
+  border-radius: 30px;
+  /* position: relative; */
+}
+body {
+  display: flex;
+  padding: 30px;
+}
+.button {
+  display: flex;
+  flex-wrap: wrap;
+}
+.num {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-family: "Poppins";
+  background: #efecec;
+  cursor: pointer;
+  box-shadow: 5px 5px 18px #949292, -5px -5px 18px #ffffff;
+}
+.num span {
+  font-weight: bold;
+}
+.value {
+  margin-top: 150px;
+  width: 100%;
+  height: 100px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  background: #efecec;
+  box-shadow: inset -5px -5px 10px #ffffff, inset 5px 5px 10px #c2bfbf;
+  text-align: right;
+  padding: 20px;
+  font-size: 2em;
+  font-family: "Poppins";
+}
+.symbol{
+  color: rgb(58, 126, 252);
+}
+.equal{
+    background:rgb(58, 126, 252);
+    
+}
+.equal span{
+    color: white;
+}
+
+.toggle-button{
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 18px #949292, -5px -5px 18px #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.night-mode{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    box-shadow: -5px -5px 10px #2b2a2a,  5px 5px 10px #0c0c0c;
+}
+.night-symbol{
+    color: goldenrod !important;
+}
+.night-equal{
+    background-color: goldenrod;
+    color: rgb(32, 32, 32);
+}
+.night-value{
+    background-color: rgb(32, 32, 32);
+    color: goldenrod;
+    box-shadow: inset -5px -5px 10px #2b2a2a, inset 5px 5px 10px #0c0c0c ;
+}
+.night-button{
+    background-color: rgb(32, 32, 32);
+    color: gold;
+    box-shadow: 0 0 20px 5px gold;
+}
